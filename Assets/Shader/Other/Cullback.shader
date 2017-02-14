@@ -4,12 +4,16 @@
 	}
 
     SubShader {
+		Name "test"
+		Lighting On
+		
+
         Pass {
+		Cull Off
             Material {
-                Diffuse (1,0,0, 1)
+                Diffuse [_tin]
             }
-            Lighting On
-            Cull Front
+			
         }
     }
 }
