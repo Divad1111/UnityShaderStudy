@@ -4,12 +4,19 @@
 	}
 
 	SubShader{
+<<<<<<< HEAD
 		Name "Chapter5-ss"
 		//ZTest GEqual
 
-		Pass{
-			CGPROGRAM
+=======
 
+		
+		
+>>>>>>> 2fd2d9580609e6b9605ddca2f4a138b532f11a6d
+		Pass{
+
+			CGPROGRAM
+		
 			#pragma vertex vert
 			#pragma fragment frag
 

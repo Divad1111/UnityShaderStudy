@@ -1,2 +1,6 @@
 Library/*
 Temp/*
+/.vs/UnityShaderStudy/v14/*.suo
+/UnityShaderStudy.CSharp.Editor.csproj
+/UnityShaderStudy.CSharp.csproj
+/UnityShaderStudy.sln
