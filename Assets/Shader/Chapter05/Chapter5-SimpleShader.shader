@@ -4,6 +4,9 @@
 	}
 
 	SubShader{
+		Name "Chapter5-ss"
+		//ZTest GEqual
+
 		Pass{
 			CGPROGRAM
 
