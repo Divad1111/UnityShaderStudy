@@ -47,12 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Editor\DrawNormalEditor.cs" />
+     <None Include="Assets\Shader\Other\Red.shader" />
      <None Include="Assets\Shader\Other\Surface06.shader" />
      <None Include="Assets\Shader\Other\VF01.shader" />
      <None Include="Assets\Shader\Other\Surface02.shader" />
      <None Include="Assets\Shader\Other\Surface01.shader" />
+     <None Include="Assets\Shader\Other\Blue.shader" />
      <None Include="Assets\Shader\Chapter05\Chapter5-SimpleShader.shader" />
      <None Include="Assets\Shader\Other\Surface04.shader" />
+     <None Include="Assets\Shader\Other\Green.shader" />
      <None Include="Assets\Shader\Other\BlendOpDarken.shader" />
      <None Include="Assets\Shader\Other\Cullback.shader" />
      <None Include="Assets\Shader\Other\Surface03.shader" />
