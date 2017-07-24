@@ -16,7 +16,7 @@ Shader "Custom/BlendOpDarken"
 			"RenderType" = "Transparent" 	
 		}
 		
-		Blend DstColor OneMinusSrcAlpha
+		Blend DstColor Zero
 
 		Pass
 		{

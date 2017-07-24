@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 [ExecuteInEditMode]
 public class DrawNormal : MonoBehaviour {
@@ -32,7 +33,7 @@ public class DrawNormal : MonoBehaviour {
 
             return skinnedMesh.sharedMesh;
         }
-
+			
         return meshF.sharedMesh;
     }
 
