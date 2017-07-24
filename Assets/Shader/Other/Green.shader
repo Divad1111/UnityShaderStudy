@@ -1,4 +1,6 @@
-﻿Shader "Green" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Green" {
 	SubShader{
 		Tags{ "RenderType" = "Opaque" "Queue" = "Geometry+1" }
 		Pass{
@@ -22,7 +24,7 @@
 	};
 	v2f vert(appdata v) {
 		v2f o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		return o;
 	}
 	half4 frag(v2f i) : SV_Target{
